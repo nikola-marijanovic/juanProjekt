@@ -1,38 +1,178 @@
-.App {
+body {
+  font-family: Verdana;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-family: Garamond;
+  font-size:50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.sadrzaj1{
+  font-size: 50px;
+ background-color: #e89d33;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#naslovna {
+  width:1500px;
+  height:700px;
 }
 
-.App-link {
-  color: #61dafb;
+p{
+  font-size: 30px;
+  width:60%;
+  position:relative;
+  left:650px;
+  top:20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.forma {
+  position: relative;
+  left: -500px;
+  top: 80px;
+
+}
+
+#slikica2 {
+  width:1000px;
+  height:300px;
+  position:relative;
+  top:-150px;
+  left: 200px;
+}
+
+
+
+a:link{
+  text-decoration: none;
+  color: #8c5f0b;
+}
+
+a:visited {
+  color: #8c5f0b;
+}
+
+a:hover {
+  color: #e3b154;
+}
+
+#prijavaa {
+  font-size: 30px;
+}
+
+#podnaslov {
+  position:relative;
+  left:-800px;
+}
+
+.Onama{
+  background-color: #b0cc91;
+}
+
+#hrana{
+  width:600px;
+  height:450px;
+  position:relative;
+  left:-900px;
+  top:100px;
+}
+
+.Meni{
+  background-color: 
+  #e2e272;
+}
+
+#pg{
+  position:relative;
+  top:-300px;
+  left:1100px;
+  width:50%;
+}
+
+#nazad{
+  font-size:20px;
+  background-color: #ecbf6c;
+  padding:10px;
+  position:relative;
+  top:25px;
+  margin-bottom: 10px;
+}
+
+
+.majica{
+  position:relative;
+  left:-500px;
+  top:400px;
+}
+
+.mug{
+  position: relative;
+  top:-310px;
+  left:300px;
+}
+
+#pismo{
+  background-color: rgb(137, 163, 144);
+}
+
+#citat{
+  background-color: rgb(247, 197, 123);
+}
+
+.linkovi {
+  background-color: cornsilk;
+}
+
+.prvi, .drugi, .treci{
+  background-color: rgb(223, 181, 92);
+}
+
+#botun {
+  margin: 100px;
+}
+
+#naslov{
+  font-size: 100px;
+}
+
+#tt{
+  position: relative;
+  top:250px;
+  left:-290px;
+  font-size: 20px;
+  
+}
+
+.lokacija{
+  position: relative;
+  background-color: rgb(214, 233, 252);
+
+}
+
+#naslov3{
+  background-color: #669ced;
+  
+}
+
+.Hnl{
+text-align: center;
+
+ width:50%;
+ margin:auto;
+position: relative;
+
+}
+
+.pravila{
+  font-family: Garamond;
+  text-align: left;
+  margin:50px;
+
+}
+
+.satnica{
+  font-family: Garamond;
+  text-align: left;
+  margin:30px;
 }
